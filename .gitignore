@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+__pycache__/
+*.parquet
+*.csv
+!**/expected/*.csv
+.scratch-*/
+.venv/
+venv/
+.DS_Store
+.claude/
