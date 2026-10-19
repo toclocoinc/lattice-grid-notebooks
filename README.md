@@ -9,6 +9,7 @@ Notebooks are committed with their outputs, so GitHub renders them.
 | Notebook | What it shows | Data | Open |
 |---|---|---|---|
 | [`nyc-taxi-10m`](nyc-taxi-10m/nyc_taxi_10m.ipynb) | A 12.6-million-row dataframe in the large-dataframe mode: header histograms, filter to long airport trips, sort, `widget.selected` back as a pandas `DataFrame`, then pandas `groupby` and `pivot_table` | NYC TLC yellow-taxi trips, Jan-Apr 2024 (public Parquet) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/toclocoinc/lattice-grid-notebooks/blob/main/nyc-taxi-10m/nyc_taxi_10m.ipynb) |
+| [`model-error-adult`](model-error-adult/model_error_adult.ipynb) | Where a gradient-boosted classifier goes wrong: a colour scale on the error, an actual x predicted pivot, grouping by sex / race / age band, a ROC chart bound to the grid that redraws for the segment you pick, and the wrong rows back as a pandas `DataFrame` | UCI Adult census income, CC BY 4.0 (fetched from the UCI archive) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/toclocoinc/lattice-grid-notebooks/blob/main/model-error-adult/model_error_adult.ipynb) |
 
 ## Licence
 
